@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="100"
+    >
+
+    <TextView
+        android:id="@+id/listMainTitle"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="33.3"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Recipe name"
+        android:textAlignment="center" />
+
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="66.6">
+
+    <TextView
+        android:gravity="center"
+        android:text="Category"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/listCategory"/>
+
+    <TextView
+        android:gravity="center"
+        android:text="Estimated Time"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/listEstimatedTime"
+        android:layout_below="@+id/listCategory"/>
+</LinearLayout>
+</LinearLayout>

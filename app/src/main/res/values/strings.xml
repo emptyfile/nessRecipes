@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">nessrecipes</string>
+
+    <string name="name_text_field">Название</string>
+    <string name="estimated_time_text_field">Время приготовления</string>
+    <string name="category_text_field">Категория</string>
+    <string name="ingredients_text_field">Ингредиенты</string>
+    <string name="text_text_field">Текст</string>
+    <string name="add_recipe_button">Добавить</string>
+    <string name="edit_recipe_button">Редактировать</string>
+    <string name="view_all_button">Все рецепты</string>
+
+
+    <string name="recipe_name_text_view">Название</string>
+    <string name="recipe_ingredients_text_view">Ингридиенты</string>>
+    <string name="recipe_text_text_view">Инструкция приготовления</string>
+
+</resources>
